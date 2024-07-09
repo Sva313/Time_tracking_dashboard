@@ -1,6 +1,6 @@
 # Frontend Mentor - Time tracking dashboard
 https://time-tracking-dashboard-rouge-six.vercel.app/
-![Design preview for the Time tracking dashboard coding challenge](./Time-tracking-dashboald-mine.png)
+![Design preview for the Time tracking dashboard coding challenge](https://time-tracking-dashboard-rouge-six.vercel.app/)
 
 ## Welcome! 👋
 
