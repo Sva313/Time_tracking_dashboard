@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<div class="container" >
+
+  <div class="card" style="width: 18rem;">
+    <img class="avatar" src="./images/image-jeremy.png"  alt="Card image cap">
+    <img class="ellipsis" width="10%" src="./images/icon-ellipsis.svg"  alt="icon-ellipsis">
+
+
+    <div class="card-body">
+      <h6 class="card-title">Report for</h6>
+      <h1 class="card-text">Jeremy Robson</h1></br>
+      <div class="btn-group-vertical" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-outline">Daily</button>
+        <button type="button" class="btn btn-outline">Weekly</button>
+        <button type="button" class="btn btn-outline">Monthly</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div  class="grid-container">
+    <!--put activity classes to all-->
+    <div id="work" class="activity">
+      <img class="activity-img" id="imgs" width="50px" src="./images/icon-work.svg" alt="icon-work">
+      <h6 class="activity-title">work</h6>
+      <h2 class="activity-current">32hrs</h2>
+      <p class="activity-previous">Last Week - 45hrs</p>
+    </div>
+    <div id="play">
+      <img id="imgs" width="50px" src="./images/icon-play.svg" alt="icon-play">
+      <h6>Play</h6>
+      <h2>10hrs</h2>
+      <p>Last Week - 8hrs</p>
+    </div>
+    <div id="study">
+      <img id="imgs" width="50px" src="./images/icon-study.svg" alt="icon-study">
+      <h6>Study</h6>
+      <h2>7hrs</h2>
+      <p>Last Week - 10hrs</p>
+    </div> 
+    <div id="exercise">
+      <img id="imgs" width="50px" src="./images/icon-exercise.svg" alt="icon-exercise">
+      <h6>Exercise</h6>
+      <h2>4hrs</h2>
+      <p>Last Week - 5hrs</p>
+    </div> 
+    <div id="social">
+      <img id="imgs" width="50px" src="./images/icon-social.svg" alt="icon-social">
+      <h6>Social</h6>
+      <h2>5hrs</h2>
+      <p>Last Week - 10hrs</p>
+    </div> 
+    <div id="selfcare">
+      <img id="imgs" width="50px" src="./images/icon-self-care.svg" alt="icon-selfcare">
+      <h6>Self care</h6>
+      <h2>2hrs</h2>
+      <p>Last Week - 3hrs</p>
+    </div>   
+  </div>
+  
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#" >Dimitris Svarnas</a>.
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="myscripts.js"></script>
+  <script src="data.json"></script>
+</body>
+</html>

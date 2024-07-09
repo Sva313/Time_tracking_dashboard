@@ -1,0 +1,122 @@
+.attribution { font-size: 11px; text-align: center;
+color: white; 
+margin-top: 40px;}
+.attribution a { color: hsl(263, 74%, 56%); }
+
+body{
+  
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: hsl(226, 43%, 10%) !important;
+    align-items: center;
+    justify-content:center;
+    padding-top: 10%;
+ }
+
+
+ .container{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto ;
+    gap: 10px;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+  }
+  .grid-container  :hover {
+  cursor: pointer;
+  background-color: hsla(0, 0%, 0%, 0.342);
+
+  }
+  
+  .grid-container > div {
+    background-color: hsl(235, 46%, 20%);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    color:white;  
+    border-radius: 20px;
+    }
+
+    .grid-container > div > h6 {
+      text-align: start ;
+      padding-left: 10%;
+    }
+
+    .grid-container > div > h2 {
+      text-align: center ;
+      padding-bottom: 5%;
+  
+    }
+
+    .grid-container > div > p {
+      text-align: center ;
+      font-size: 14px;
+      padding-top: 5%;
+      color: rgba(255, 255, 255, 0.473);
+    }
+
+    .grid-container > div > #imgs {
+      float: right;
+      margin-right: 10%;
+      margin-top: 5%;
+      opacity: 80%;
+      }
+  
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline-style:double;
+    margin-left: 20px;
+
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+  }
+ 
+  .ellipsis {/*needs work */
+    display: block;
+     margin-left: auto;
+     margin-right: 10%;
+   
+  }
+
+  .ellipsis:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(150%);
+}
+
+.container .avatar:active {
+  -webkit-transform: scale(3);
+  transform: scale(3);
+  cursor: zoom-out;
+}
+
+
+  .card  {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color:white;
+  background-color:hsl(246, 80%, 60%)!important;
+  border-radius: 25px !important;
+ 
+ }
+
+button {
+    background-color: hsl(235, 46%, 20%) !important;
+    width:200% !important;
+    text-align: left !important;
+    color: rgba(255, 255, 255, 0.473) !important;
+    padding-left: 25px !important;
+}
+button:hover {
+    background-color: hsl(226, 43%, 10%) !important; 
+    color: rgb(255, 255, 255) !important; 
+}
+
